@@ -1,8 +1,12 @@
 # MechaCar_Statistical_Analysis
 
 ## Overview
-### This project uses R to find statistics and test hypothesis to analyze csv files regarding car specs.
+### This project uses R to find statistics and test hypothesis to analyze csv files regarding car specs. 
 
+- Use a linear regression to predict MPG
+- Find summary statistics on PSI of suspension coils of cars in the different manufacturing lots.
+- Run T-tests on the manufactoring lots to compare to the mean population
+  
 ## Study Design: MechaCar vs Competition
 
 ## Metrics
