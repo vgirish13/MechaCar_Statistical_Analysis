@@ -12,9 +12,9 @@ total_summary <- susp_coil %>% summarize(Mean = mean(PSI), Median = median(PSI),
 
 lot_summary <- susp_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD=sd(PSI) , )
 
-t.test(sisp_coil$PSI, mu =mean(susp_coil$PSI))
+t.test(susp_coil$PSI, mu =mean(susp_coil$PSI))
 
-data_11 <- susp_coil %>% filter(manufacturing_Lot == 'Lot1')
+data_11 <- susp_coil %>% filter(Manufacturing_Lot == 'Lot1')
 data_12 <- susp_coil %>% filter(Manufacturing_Lot == 'Lot2')
 data_13 <- susp_coil %>% filter(Manufacturing_Lot == 'Lot3')
 
